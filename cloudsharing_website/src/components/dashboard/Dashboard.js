@@ -1,51 +1,24 @@
 import React from "react";
 import "../dashboard/Dashboard.css";
-import star from "../../assets/icons/star.png";
+import Categories from "./categories/Categories";
+import Files from "./files/Files";
+import Recent from "./recent/Recent";
+import search from "../../assets/icons/more.png";
 
 function Dashboard() {
     return (
-        <div className="dashboard-section">
-            <div className="search">
-                <input type="text" placeholder="Search" />
-            </div>
-            <h3>Categories</h3>
+        <div className="dashboard-main">
+            <div className="dashboard-section">
+                <div className="search">
+                    <input type="text" placeholder="Search" />
+                    <div className="search-log">
+                        <img src={search} />
+                    </div>
+                </div>
 
-            <div className="categories">
-                <div className="category-card">
-                    <div className="credit">
-                        <div className="card-icon">
-                            <img src={star} />
-                        </div>
-                        <img src={star} />
-                    </div>
-
-                    <h4>Picture</h4>
-                    <h5>480 files</h5>
-                </div>
-                <div className="category-card">
-                    <div className="card-icon">
-                        <img />
-                        <img />
-                    </div>
-                    <h3>Picture</h3>
-                    <h5>480 files</h5>
-                </div>
-                <div className="category-card">
-                    <div className="card-icon">
-                        <img />
-                        <img />
-                    </div>
-                    <h3>Picture</h3>
-                    <h5>480 files</h5>
-                </div>
-                <div className="category-card">
-                    <div className="card-icon">
-                        <img />
-                        <img />
-                    </div>
-                    <h3>Picture</h3>
-                    <h5>480 files</h5>
-                </div>
+                <Categories />
+                <Files />
+                <Recent />
             </div>
         </div>
     );

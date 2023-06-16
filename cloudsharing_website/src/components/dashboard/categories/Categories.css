@@ -1,0 +1,99 @@
+.categories {
+    display: flex;
+    overflow-x: hidden;
+}
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.category-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    min-width: 150px;
+}
+.category h4 {
+    font-size: 14px;
+}
+
+.category-card h4 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-document h4 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-video h4 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-audio h4 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-card h5 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-video h5 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-document h5 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.category-audio h5 {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin: unset;
+}
+.title {
+    padding: 10px;
+}
+.credit {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
+    gap: 30px;
+}
+
+.credit img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-bg {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-bg span {
+    width: 20px;
+    height: 20px;
+}
