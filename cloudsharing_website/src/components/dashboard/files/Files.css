@@ -1,12 +1,13 @@
 .file-main {
     margin-top: 10px;
+    color: hsl(214.66deg 92.06% 24.71%);
 }
 .file-section {
-    /* margin: 20px 30px; */
     display: flex;
 }
 .file-section h3 {
     text-align: left;
+    color: hsl(214.66deg 92.06% 24.71%);
 }
 .file-card {
     display: flex;
@@ -15,10 +16,29 @@
     padding: 10px;
     gap: 5px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #fff;
+    margin-right: 15px;
+}
+.count {
+    font-size: 12px;
+}
+.file-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    background-color: #fff;
     margin-right: 15px;
 }
 .file-icon {
+    width: 30px;
+    height: 30px;
+}
+.file-icons {
     width: 30px;
     height: 30px;
 }
@@ -26,5 +46,5 @@
     width: 75%;
     height: 1.5px;
     margin: 0 auto;
-    background-color: dodgerblue;
+    background-color: hsl(214.66deg 92.06% 24.71%);
 }

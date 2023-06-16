@@ -1,36 +1,41 @@
 import React from "react";
-import star from "../../../assets/icons/star.png";
+import star from "../../../assets/icons/staryellow.png";
+import camera from "../../../assets/icons/photo-camera.png";
+import file from "../../../assets/icons/file.png";
+import video from "../../../assets/icons/video-camera.png";
+import audio from "../../../assets/icons/mic.png";
+
 import "../categories/Categories.css";
 
 function Categories() {
     const categories = [
         {
             id: 1,
-            icon: star,
+            icon: camera,
             iconstar: star,
-            documentname: "Profile",
-            documentsize: "155 file",
+            documentname: "Pictures",
+            documentsize: "480 files",
             bg: "hsl(242.43deg 89.16% 67.45%)",
         },
         {
             id: 2,
-            icon: star,
-            documentname: "Document",
-            documentsize: "155 file",
+            icon: file,
+            documentname: "Documents",
+            documentsize: "190 files",
             bg: "hsl(333.62deg 65.17% 65.1%)",
         },
         {
             id: 3,
-            icon: star,
+            icon: video,
             documentname: "Video",
-            documentsize: "155 file",
+            documentsize: "30 files",
             bg: "hsl(190.77deg 46.99% 48.82%)",
         },
         {
             id: 4,
-            icon: star,
+            icon: audio,
             documentname: "Audio",
-            documentsize: "155 file",
+            documentsize: "80 files",
             bg: "hsl(214.97deg 69.72% 49.22%)",
         },
     ];

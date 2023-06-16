@@ -33,9 +33,12 @@
     display: flex;
     align-items: center;
 }
+.services ul li h3 {
+    font-size: 13px;
+}
 .services ul li img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
 }
 .settings ul {
@@ -49,6 +52,6 @@
 }
 .settings ul li img {
     padding: 10px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }

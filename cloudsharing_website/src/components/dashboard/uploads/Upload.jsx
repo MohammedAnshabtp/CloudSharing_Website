@@ -1,6 +1,6 @@
 import React from "react";
 import "../../dashboard/uploads/Upload.css";
-import share from "../../../assets/icons/share.png";
+import share from "../../../assets/icons/upload.png";
 function Upload() {
     const profiles = [
         {
@@ -8,21 +8,21 @@ function Upload() {
             filename: "Keynote files",
             dpone: "https://eclatsuperior.com/wp-content/uploads/2021/04/man3.jpg",
             dptwo: "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg",
-            bg: "green",
+            bg: "hsl(185.33deg 51.72% 82.94%)",
         },
         {
             id: 2,
             filename: "Vacation nhotos",
             dpone: "https://shotkit.com/wp-content/uploads/2021/06/cool-profile-pic-matheus-ferrero.jpeg",
             dptwo: "https://st4.depositphotos.com/1017228/25111/i/600/depositphotos_251112376-stock-photo-image-of-joyful-man-30s.jpg",
-            bg: "yellow",
+            bg: "hsl(240deg 85.71% 91.76%)",
         },
         {
             id: 3,
             filename: "Proiect report",
             dpone: "https://as2.ftcdn.net/jpg/02/87/35/99/220_F_287359914_HU3P7rhmyJMyyhBBcILcWd2S7DDwkJSs.jpg",
             dptwo: "https://st4.depositphotos.com/1017228/25111/i/600/depositphotos_251112376-stock-photo-image-of-joyful-man-30s.jpg",
-            bg: "dark",
+            bg: "hsl(336deg 68.18% 91.37%)",
         },
     ];
     return (
@@ -66,6 +66,12 @@ function Upload() {
                         </div>
                     </div>
                 ))}
+                <div className="share-add">
+                    <div className="share-button">
+                        <h4>+</h4>
+                        <h4>Add more</h4>
+                    </div>
+                </div>
             </div>
         </div>
     );

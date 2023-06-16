@@ -3,31 +3,40 @@ import "../../../components/dashboard/recent/Recent.css";
 import sharee from "../../../assets/icons/sharee.png";
 import more from "../../../assets/icons/more.png";
 import camera from "../../../assets/icons/camera.png";
+import video from "../../../assets/icons/video-camera.png";
 
 function Recent() {
     const recentFiles = [
         {
             id: 1,
             icon: camera,
-            filename: "banna",
-            filetype: "mp4",
-            size: "78mb",
+            filename: "IMG_10000",
+            filetype: "PNG file",
+            size: "5 MB",
             bg: "hsl(242.43deg 89.16% 67.45%)",
         },
         {
             id: 2,
-            icon: camera,
-            filename: "test",
-            filetype: "mp3",
-            size: "78mb",
-            bg: "hsl(190.77deg 46.99% 48.82%)",
+            icon: video,
+            filename: "Startup pitch",
+            filetype: "AVI file",
+            size: "105 MB",
+            bg: "lightgreen",
         },
         {
             id: 3,
             icon: camera,
-            filename: "bannacp",
-            filetype: "mov",
-            size: "744mb",
+            filename: "Freestyle beat",
+            filetype: "MP3 file",
+            size: "21 MB",
+            bg: "hsl(333.62deg 65.17% 65.1%)",
+        },
+        {
+            id: 4,
+            icon: camera,
+            filename: "Work prposal",
+            filetype: "DOCx file",
+            size: "500 kb",
             bg: "hsl(333.62deg 65.17% 65.1%)",
         },
     ];

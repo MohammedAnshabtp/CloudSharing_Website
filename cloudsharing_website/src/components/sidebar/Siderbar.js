@@ -1,10 +1,10 @@
 import React from "react";
 import "../sidebar/Sidebar.css";
-import lock from "../../assets/icons/lock.png";
-import share from "../../assets/icons/share.png";
-import star from "../../assets/icons/star.png";
-import people from "../../assets/icons/people.png";
-import setting from "../../assets/icons/settings.png";
+import lock from "../../assets/icons/private-account.png";
+import share from "../../assets/icons/cloud.png";
+import star from "../../assets/icons/starwhite.png";
+import people from "../../assets/icons/shared.png";
+import setting from "../../assets/icons/setting.png";
 import logout from "../../assets/icons/logout.png";
 
 function SiderBar() {
@@ -26,7 +26,7 @@ function SiderBar() {
                         </li>
                         <li>
                             <img src={star} />
-                            <h3>Favourites</h3>
+                            <h3>Favorites</h3>
                         </li>
                         <li>
                             <img src={share} />

@@ -3,7 +3,7 @@ import "../dashboard/Dashboard.css";
 import Categories from "./categories/Categories";
 import Files from "./files/Files";
 import Recent from "./recent/Recent";
-import search from "../../assets/icons/more.png";
+import search from "../../assets/icons/search.png";
 
 function Dashboard() {
     return (

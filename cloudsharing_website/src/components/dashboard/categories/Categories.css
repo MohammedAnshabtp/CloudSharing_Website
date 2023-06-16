@@ -21,52 +21,16 @@
 
 .category-card h4 {
     text-align: left;
-    color: #000;
+    color: #fff;
     font-size: 15px;
-    margin: unset;
 }
-.category-document h4 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
-.category-video h4 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
-.category-audio h4 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
+
 .category-card h5 {
     text-align: left;
-    color: #000;
+    color: #fff;
     font-size: 15px;
-    margin: unset;
 }
-.category-video h5 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
-.category-document h5 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
-.category-audio h5 {
-    text-align: left;
-    color: #000;
-    font-size: 15px;
-    margin: unset;
-}
+
 .title {
     padding: 10px;
 }

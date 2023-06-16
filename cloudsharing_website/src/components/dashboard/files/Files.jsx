@@ -1,30 +1,34 @@
 import React from "react";
 import "../files/Files.css";
-import people from "../../../assets/icons/people.png";
+import file from "../../../assets/icons/file.png";
+import people from "../../../assets/icons/user.png";
+import school from "../../../assets/icons/mortarboard.png";
+import archive from "../../../assets/icons/box.png";
+
 
 function Files() {
     const files = [
         {
             id: 1,
-            icons: people,
+            icons: file,
             filename: "Works",
-            filesize: "85 files",
+            filesize: "820 files",
         },
         {
             id: 2,
             icons: people,
             filename: "Personal",
-            filesize: "85 files",
+            filesize: "115 files",
         },
         {
             id: 3,
-            icons: people,
+            icons: school,
             filename: "School",
             filesize: "85 files",
         },
         {
             id: 4,
-            icons: people,
+            icons: archive,
             filename: "Archieve",
             filesize: "85 files",
         },
@@ -43,6 +47,11 @@ function Files() {
                         <span className="line"></span>
                     </div>
                 ))}
+                <div className="file-add">
+                    <div className="file-icons">
+                        <h1>+</h1>
+                    </div>
+                </div>
             </div>
         </div>
     );
